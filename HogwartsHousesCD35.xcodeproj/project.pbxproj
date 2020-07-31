@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEBFA9A24D3A0AD006F4979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBFA9924D3A0AD006F4979 /* AppDelegate.swift */; };
+		FAEBFA9C24D3A0AD006F4979 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBFA9B24D3A0AD006F4979 /* SceneDelegate.swift */; };
+		FAEBFAA124D3A0AD006F4979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEBFA9F24D3A0AD006F4979 /* Main.storyboard */; };
+		FAEBFAA424D3A0AD006F4979 /* HogwartsHousesCD35.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAEBFAA224D3A0AD006F4979 /* HogwartsHousesCD35.xcdatamodeld */; };
+		FAEBFAA624D3A0AF006F4979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEBFAA524D3A0AF006F4979 /* Assets.xcassets */; };
+		FAEBFAA924D3A0AF006F4979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEBFAA724D3A0AF006F4979 /* LaunchScreen.storyboard */; };
+		FAEBFAB824D3A1BC006F4979 /* HogwartsHouses+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBFAB724D3A1BC006F4979 /* HogwartsHouses+Convenience.swift */; };
+		FAEBFABA24D3A1C9006F4979 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBFAB924D3A1C9006F4979 /* CoreDataStack.swift */; };
+		FAEBFABC24D3A250006F4979 /* HouseGuessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBFABB24D3A250006F4979 /* HouseGuessController.swift */; };
+		FAEBFABE24D3A891006F4979 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBFABD24D3A891006F4979 /* MainTableViewController.swift */; };
+		FAEBFAC024D3ABA4006F4979 /* HouseGuessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBFABF24D3ABA4006F4979 /* HouseGuessTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAEBFA9624D3A0AD006F4979 /* Hogwarts Houses CD 35.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hogwarts Houses CD 35.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEBFA9924D3A0AD006F4979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEBFA9B24D3A0AD006F4979 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAEBFAA024D3A0AD006F4979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEBFAA324D3A0AD006F4979 /* HogwartsHousesCD35.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HogwartsHousesCD35.xcdatamodel; sourceTree = "<group>"; };
+		FAEBFAA524D3A0AF006F4979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEBFAA824D3A0AF006F4979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAEBFAAA24D3A0AF006F4979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEBFAB724D3A1BC006F4979 /* HogwartsHouses+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HogwartsHouses+Convenience.swift"; sourceTree = "<group>"; };
+		FAEBFAB924D3A1C9006F4979 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		FAEBFABB24D3A250006F4979 /* HouseGuessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseGuessController.swift; sourceTree = "<group>"; };
+		FAEBFABD24D3A891006F4979 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		FAEBFABF24D3ABA4006F4979 /* HouseGuessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseGuessTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEBFA9324D3A0AD006F4979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEBFA8D24D3A0AD006F4979 = {
+			isa = PBXGroup;
+			children = (
+				FAEBFA9824D3A0AD006F4979 /* HogwartsHousesCD35 */,
+				FAEBFA9724D3A0AD006F4979 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEBFA9724D3A0AD006F4979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBFA9624D3A0AD006F4979 /* Hogwarts Houses CD 35.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEBFA9824D3A0AD006F4979 /* HogwartsHousesCD35 */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBFAB624D3A16B006F4979 /* VIews */,
+				FAEBFAB324D3A10F006F4979 /* Controllers */,
+				FAEBFAB024D3A0C7006F4979 /* Resources */,
+				FAEBFAB124D3A0FE006F4979 /* StoryBoards */,
+				FAEBFAB224D3A108006F4979 /* Models */,
+			);
+			path = HogwartsHousesCD35;
+			sourceTree = "<group>";
+		};
+		FAEBFAB024D3A0C7006F4979 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBFA9924D3A0AD006F4979 /* AppDelegate.swift */,
+				FAEBFA9B24D3A0AD006F4979 /* SceneDelegate.swift */,
+				FAEBFAA524D3A0AF006F4979 /* Assets.xcassets */,
+				FAEBFAAA24D3A0AF006F4979 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAEBFAB124D3A0FE006F4979 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBFA9F24D3A0AD006F4979 /* Main.storyboard */,
+				FAEBFAA724D3A0AF006F4979 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		FAEBFAB224D3A108006F4979 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBFAA224D3A0AD006F4979 /* HogwartsHousesCD35.xcdatamodeld */,
+				FAEBFAB724D3A1BC006F4979 /* HogwartsHouses+Convenience.swift */,
+				FAEBFAB924D3A1C9006F4979 /* CoreDataStack.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAEBFAB324D3A10F006F4979 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBFAB524D3A162006F4979 /* View Controller */,
+				FAEBFAB424D3A151006F4979 /* Model Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAEBFAB424D3A151006F4979 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBFABB24D3A250006F4979 /* HouseGuessController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		FAEBFAB524D3A162006F4979 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBFABD24D3A891006F4979 /* MainTableViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		FAEBFAB624D3A16B006F4979 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBFABF24D3ABA4006F4979 /* HouseGuessTableViewCell.swift */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEBFA9524D3A0AD006F4979 /* HogwartsHousesCD35 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEBFAAD24D3A0AF006F4979 /* Build configuration list for PBXNativeTarget "HogwartsHousesCD35" */;
+			buildPhases = (
+				FAEBFA9224D3A0AD006F4979 /* Sources */,
+				FAEBFA9324D3A0AD006F4979 /* Frameworks */,
+				FAEBFA9424D3A0AD006F4979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HogwartsHousesCD35;
+			productName = HogwartsHousesCD35;
+			productReference = FAEBFA9624D3A0AD006F4979 /* Hogwarts Houses CD 35.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEBFA8E24D3A0AD006F4979 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Alex Lundquist";
+				TargetAttributes = {
+					FAEBFA9524D3A0AD006F4979 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = FAEBFA9124D3A0AD006F4979 /* Build configuration list for PBXProject "HogwartsHousesCD35" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEBFA8D24D3A0AD006F4979;
+			productRefGroup = FAEBFA9724D3A0AD006F4979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEBFA9524D3A0AD006F4979 /* HogwartsHousesCD35 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEBFA9424D3A0AD006F4979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEBFAA924D3A0AF006F4979 /* LaunchScreen.storyboard in Resources */,
+				FAEBFAA624D3A0AF006F4979 /* Assets.xcassets in Resources */,
+				FAEBFAA124D3A0AD006F4979 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEBFA9224D3A0AD006F4979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEBFABC24D3A250006F4979 /* HouseGuessController.swift in Sources */,
+				FAEBFABA24D3A1C9006F4979 /* CoreDataStack.swift in Sources */,
+				FAEBFAA424D3A0AD006F4979 /* HogwartsHousesCD35.xcdatamodeld in Sources */,
+				FAEBFA9A24D3A0AD006F4979 /* AppDelegate.swift in Sources */,
+				FAEBFAB824D3A1BC006F4979 /* HogwartsHouses+Convenience.swift in Sources */,
+				FAEBFA9C24D3A0AD006F4979 /* SceneDelegate.swift in Sources */,
+				FAEBFAC024D3ABA4006F4979 /* HouseGuessTableViewCell.swift in Sources */,
+				FAEBFABE24D3A891006F4979 /* MainTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAEBFA9F24D3A0AD006F4979 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEBFAA024D3A0AD006F4979 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEBFAA724D3A0AF006F4979 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEBFAA824D3A0AF006F4979 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEBFAAB24D3A0AF006F4979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEBFAAC24D3A0AF006F4979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEBFAAE24D3A0AF006F4979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUS58J95U8;
+				INFOPLIST_FILE = HogwartsHousesCD35/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexlundquist.HogwartsHousesCD35;
+				PRODUCT_NAME = "Hogwarts Houses CD 35";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEBFAAF24D3A0AF006F4979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUS58J95U8;
+				INFOPLIST_FILE = HogwartsHousesCD35/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexlundquist.HogwartsHousesCD35;
+				PRODUCT_NAME = "Hogwarts Houses CD 35";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEBFA9124D3A0AD006F4979 /* Build configuration list for PBXProject "HogwartsHousesCD35" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEBFAAB24D3A0AF006F4979 /* Debug */,
+				FAEBFAAC24D3A0AF006F4979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEBFAAD24D3A0AF006F4979 /* Build configuration list for PBXNativeTarget "HogwartsHousesCD35" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEBFAAE24D3A0AF006F4979 /* Debug */,
+				FAEBFAAF24D3A0AF006F4979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAEBFAA224D3A0AD006F4979 /* HogwartsHousesCD35.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAEBFAA324D3A0AD006F4979 /* HogwartsHousesCD35.xcdatamodel */,
+			);
+			currentVersion = FAEBFAA324D3A0AD006F4979 /* HogwartsHousesCD35.xcdatamodel */;
+			path = HogwartsHousesCD35.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAEBFA8E24D3A0AD006F4979 /* Project object */;
+}
